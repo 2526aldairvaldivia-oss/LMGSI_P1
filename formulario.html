@@ -1,0 +1,61 @@
+<html>
+<body>
+<style>
+h1 {
+    color: khaki;
+    text-align: center;
+}
+</style>
+
+<h1>Formulario pequeño.</h1>
+
+<form>
+
+    <h2>Pon tus datos (nombre, correo electronico y tu edad.)</h2>
+    <label for="nom">Nombre: </label> <br>
+    <input type="text" id="nom" name="nom"> <br>
+    <p></p>
+    <label for="corr">Correo electronico: </label> <br>
+    <input type="email" id="corr" name="corr"> <br>
+    <p></p>
+    <label for="edad">Fecha de nacimiento: </label> <br>
+    <input type="date" id="edad" name="edad">
+
+    <p></p>
+    <p></p>
+
+    <h2>¿En cual de estos centros cursas actualmente?</h2>
+    <input type="radio" id="ITIC BCN" name="preg" value="ITIC BCN">
+    <label for="ITIC BCN">Institut TIC</label> <br>
+
+    <input type="radio" id="ADDB" name="preg" value="Amor de Dios Barcelona"> 
+    <label for="ADDB">Amor de Dios Barcelona</label> <br>
+
+    <h2>¿Te gusta tu nuevo lo que estudias? </h2>
+    <label for="curso">Tu opinión: </label>
+    <select id="curso" name="curso">
+        <option value="megusta">¡Me gusta mucho!</option>
+        <option value="medio">Ni bien ni mal.</option>
+        <option value="no">Me equivoque de modalidad.</option>
+    </select>
+
+    <h2>¿Cual de estas opciones te interesa mas?</h2>
+    <input type="checkbox" id="ia" name="gustos" value="ia">
+    <label for="prog">Inteligencia artificial.</label> <br>
+    <input type="checkbox" id="prog" name="gustos" value="prog">
+    <label for="prog">Programación.</label> <br>
+    <input type="checkbox" id="jug" name="gustos" value="jug" checked>
+    <label for="jug">Jugar con el ordenador en mitad de clases.</label> <br>
+
+    <h2>Pon una anecdota que te haya pasado recientemente en el centro.</h2>
+    <textarea name="anec" placeholder="Tu anecdota." style="width:500px; height: 300px;"></textarea> <br>
+    <br>
+    <input type="submit"> 
+
+    
+</form>
+
+</body>
+
+
+</html>
